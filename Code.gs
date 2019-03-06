@@ -20,7 +20,7 @@
 
 
 // get active spreasheet
-var ss = SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1sBPcl_dp70XYqfU-gJVDI5_3cn9PUA8-05hGhaHvLik/edit#gid=0');
+var ss = SpreadsheetApp.getActiveSheet();
 
 // get sheet named RawData
 var sheet = ss.getSheetByName('RawData');
