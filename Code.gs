@@ -17,7 +17,7 @@
 * a commercial license, send an email to license@arduino.cc.
 *
 */
-
+// In case you have the previous version of the script make sure to change the version after the update in order for this to work.
 
 // get active spreasheet
 var ss = SpreadsheetApp.getActiveSheet();
