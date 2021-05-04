@@ -58,7 +58,7 @@ function doPost(e) {
   Hence, execute the rest of the script if the year of the date is well defined and it is greater
   then 2018 (or any other year before)
   */
-  if (date.getYear() > 2018) {
+  if (date.getFullYear() > 2018) {
   
     // discard all messages that arrive 'late'
     if (sheet.getRange(HEADER_ROW+1, 1).getValue() != '') { // for the first time app is run
